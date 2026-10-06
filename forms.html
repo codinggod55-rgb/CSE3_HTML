@@ -6,7 +6,10 @@
     <title>Form</title>
   </head>
   <body>
-    <form style="margin: 5px; padding: 5px;" name="" method="" action="" target="">
+    <fieldset>
+      <legend>BioData</legend>
+    
+    <form style="margin: 5px; padding: 5px;" name="" method="" action="#" target="">
       <!-- Input  Element properties
         name
         value
@@ -20,8 +23,15 @@
       <input type="text" name="mail" placeholder="Enter your Mail">
       <label for="password">Password: </label>
       <input type="password" name="password" placeholder="Enter Password">
-      <button>Submit</button>
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" id="male">Male
+      <input type="radio" name="gender" id="female">Female
+      
+
+      <input type="submit">
+      <input type="reset">
       
     </form>
+    </fieldset>
   </body>
 </html>
